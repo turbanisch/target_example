@@ -1,3 +1,13 @@
+# MacOS
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+*.DS_Store
+
+# data files in R/
+R/*.csv
+
 # History files
 .Rhistory
 .Rapp.history
