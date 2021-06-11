@@ -1,0 +1,13 @@
+---
+title: "Report"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Let's embed a target object:
+```{r}
+summary(tar_read(oecd))
+```
